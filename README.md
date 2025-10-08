@@ -6,7 +6,7 @@ This project demonstrates microservices architecture best practices with a clean
 
 Architecture Overview
 
-![HLD](Image/HLD.png)
+![HLD](Image/HLD design.png)
 1. API Gateway (api-gateway/)
 Purpose: Single entry point for all client requests, routes to the appropriate backend service based on path.
 •	Technology: Spring Cloud Gateway.
