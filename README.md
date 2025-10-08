@@ -1,21 +1,12 @@
-# SpringProject
-Trying out spring boot 
+# To-Do Microservices Platform
 
 To-Do Microservices Platform
 A modern, scalable to-do management system built with Java, Spring Boot, React, PostgreSQL, and Docker.
 This project demonstrates microservices architecture best practices with a clean separation of concerns, JWT security, API Gateway, service-to-service communication, and multi-user support.
-Architecture Overview
-+---------------+           +----------------+        +------------------+
-|  React UI     | <-------> |  API Gateway   | <----> |  Microservices   |
-+---------------+           +----------------+        |                  |
-                                             |        |  User Service    |
-                                             |        |  Task Service    |
-                                             |        |  AnalyticsSvc    |
-                                             +--------------------------+
-                                                      |
-                                                   PostgreSQL
 
-Services
+Architecture Overview
+
+![HLD](Image/HLD.png)
 1. API Gateway (api-gateway/)
 Purpose: Single entry point for all client requests, routes to the appropriate backend service based on path.
 •	Technology: Spring Cloud Gateway.
