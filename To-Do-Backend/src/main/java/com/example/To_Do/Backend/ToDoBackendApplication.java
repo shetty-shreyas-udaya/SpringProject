@@ -1,13 +1,13 @@
-package com.SpringProject_2;
+package com.example.To_Do.Backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringProject2Application {
+public class ToDoBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringProject2Application.class, args);
+		SpringApplication.run(ToDoBackendApplication.class, args);
 	}
 
 }
